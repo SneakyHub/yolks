@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH openjdk:23-jdk
+FROM        --platform=$TARGETOS/$TARGETARCH openjdk:23-jdk-slim
 
 LABEL       author="Sneaky" maintainer="sneaky@sneakyhub.com"
 
@@ -13,11 +13,11 @@ RUN         apt update -y \
                 openssl \
                 git \
                 tar \
-                sqlite3 \
+                sqlite \
                 fontconfig \
                 tzdata \
                 iproute2 \
-                libfreetype6 \
+                freetype \
                 tini \
 				zip \
 				unzip
