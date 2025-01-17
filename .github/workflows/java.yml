@@ -16,9 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         tag:
-          - 7
           - 8
-          - 9
 #          - 8j9
           - 11
 #          - 11j9
