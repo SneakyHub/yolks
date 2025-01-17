@@ -1,8 +1,8 @@
 FROM        --platform=$TARGETOS/$TARGETARCH openjdk:23-jdk
 
-LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL       author="Sneaky" maintainer="sneaky@sneakyhub.com"
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/sneakyhub/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apt update -y \
