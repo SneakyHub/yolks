@@ -35,8 +35,8 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: dckr_pat_ws_vBowMtq1uPT4g7-ff1O_ivEo
+          username: sneakyhub
+          password: ${{ secrets.REGISTRY_TOKEN }}
       - uses: docker/build-push-action@v6
         with:
           context: ./java
