@@ -173,17 +173,21 @@ is tagged correctly.
 ### [Java](/java)
 
 * [`java8`](/java/8)
-  * `ghcr.io/parkervcp/yolks:java_8`
+  * `ghcr.io/sneakyhub/yolks:java_8`
 * [`java11`](/java/11)
-  * `ghcr.io/parkervcp/yolks:java_11`
+  * `ghcr.io/sneakyhub/yolks:java_11`
 * [`java16`](/java/16)
-  * `ghcr.io/parkervcp/yolks:java_16`
+  * `ghcr.io/sneakyhub/yolks:java_16`
 * [`java17`](/java/17)
-  * `ghcr.io/parkervcp/yolks:java_17`
+  * `ghcr.io/sneakyhub/yolks:java_17`
 * [`java19`](/java/19)
-  * `ghcr.io/parkervcp/yolks:java_19`
+  * `ghcr.io/sneakyhub/yolks:java_19`
 * [`java21`](/java/21)
-  * `ghcr.io/parkervcp/yolks:java_21`
+  * `ghcr.io/sneakyhub/yolks:java_21`
+* [`java22`](/java/21)
+  * `ghcr.io/sneakyhub/yolks:java_22`
+* [`java23`](/java/21)
+  * `ghcr.io/sneakyhub/yolks:java_23`
 
 ### [MariaDB](/mariadb)
 
