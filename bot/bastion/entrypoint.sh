@@ -9,7 +9,7 @@ NC='\033[0m'
 clear
 #show versions
 echo -e "${BLUE}-------------------------------------------------${NC}"
-echo -e "${YELLOW}BastionBot Installation${NC}"
+echo -e "${YELLOW}BastionBot Installation | Powered by SneakyHub.com ${NC}"
 echo -e "${BLUE}-------------------------------------------------${NC}"
 echo -e "${YELLOW}MongoDB Version:${NC} " && mongod --version
 echo -e "${YELLOW}NodeJS Version:${NC} " && node -v
@@ -28,13 +28,13 @@ echo -e "${YELLOW}:/home/container${NC} ${MODIFIED_STARTUP}"
 
 # start mongo
 echo -e "${BLUE}-------------------------------------------------${NC}"
-echo -e "${YELLOW}starting MongoDB...${NC}"
+echo -e "${YELLOW}starting MongoDB... | Powered by SneakyHub.com ${NC}"
 echo -e "${BLUE}-------------------------------------------------${NC}"
 mongod --fork --dbpath /home/container/mongodb/ --port 27017 --logpath /home/container/mongod.log --logRotate reopen --logappend && until nc -z -v -w5 127.0.0.1 27017; do echo 'Waiting for mongodb connection...'; sleep 5; done
 
 # Run the Server
 echo -e "${BLUE}-------------------------------------------------${NC}"
-echo -e "${YELLOW}BastionBot starting...${NC}"
+echo -e "${YELLOW}BastionBot starting... | Powered by SneakyHub.com ${NC}"
 echo -e "${BLUE}-------------------------------------------------${NC}"
 eval ${MODIFIED_STARTUP}
 

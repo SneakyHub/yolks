@@ -23,7 +23,7 @@ export INTERNAL_IP
 
 # system informations
 echo -e "${BLUE}-------------------------------------------------${NC}"
-echo -e "${RED}Uptime Kuma Image${NC}"
+echo -e "${RED}Uptime Kuma Image | Powered by SneakyHub.com${NC}"
 echo -e "${BLUE}-------------------------------------------------${NC}"
 echo -e "${YELLOW}Running on Alpine: ${RED} $(cat /etc/alpine-release)${NC}"
 echo -e "${YELLOW}Current timezone: ${RED} ${TZ} ${NC}"

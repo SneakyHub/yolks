@@ -6,7 +6,7 @@ INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
 # Print the Muble server version
-echo -e "Mumble release version:"
+echo -e "| Powered by SneakyHub.com | Mumble release version:"
 cat /usr/local/share/mumble/latest_tag.txt
 
 # Replace Startup Variables
