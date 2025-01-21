@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH alpine:latest
 
-LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
+LABEL       author="SneakyHub" maintainer="sneaky@sneakyhub.com"
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/sneakyhub/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apk add --update --no-cache ca-certificates curl unzip tar git jq wget
